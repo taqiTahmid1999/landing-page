@@ -1,4 +1,4 @@
-# Landing-Page
+# landing-page
 
 This project is a landing page created as part of an exercise to practice HTML and CSS skills. The landing page utilizes free photos from [Pexels](https://www.pexels.com/), a website that distributes free-to-use photos.
 
