@@ -14,6 +14,7 @@ header,main>.home{
 
 
 }
+
 header{
     display: flex;
     flex-flow: row wrap;
@@ -29,7 +30,7 @@ button{
     padding-inline:12px;
     padding-block: 4px;
     border-radius: 6px;
-    background-color: #3b82f6;
+    background-color: #3882F6;
     color: #dfe0e2;
 
 }
@@ -67,6 +68,9 @@ button:hover{
 .random-info>h2{
     text-align: center;
     margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
 
 }
 .random-info{
@@ -109,13 +113,14 @@ button:hover{
 
 }
 .feedback>.quote-text{
-    color: #80868f;
+    color: #1f2937;
     font-weight: 100;
     font-style: italic;
-    font-size: 24px;
+    font-size: 36px;
 
 }
 .feedback>.quote-author{
+    font-size: 18px;
     font-weight: 700;
     font-style: normal;
     align-self: flex-end;
@@ -150,7 +155,19 @@ footer{
     color: #dfe0e2;
     font-weight: 300;
     padding: 25px;
-    
-
 }
 
+.home>.intro>h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.home>.intro>p,
+header>.header-link>ul>li>a
+{
+    font-size: 18px;
+}
+header>h3{
+    font-size: 24px;
+    color: #f9faf8;
+}
